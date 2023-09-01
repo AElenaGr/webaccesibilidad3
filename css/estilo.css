@@ -1,0 +1,68 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(255, 202, 244);
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-align: justify;
+}
+
+.contenedor {
+  width: 80%;
+  /* Ancho deseado del contenedor centrado */
+  margin: 0 auto;
+  /* Centra horizontalmente el contenedor */
+  padding: 20px;
+  /* Añade espacio de relleno alrededor del contenido si es necesario */
+  background-color: white;
+  /* Color de fondo del contenedor */
+}
+
+#carousel {
+  max-width: 800px;
+  margin: 0 auto;
+  /* Centra el carrusel en la página */
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  /* Cambia la posición de manera absoluta */
+  position: absolute;
+  top: 50%;
+  /* Alinea verticalmente al centro */
+  transform: translateY(-50%);
+  /* Ajusta verticalmente en función del tamaño del botón */
+}
+
+/* Ajusta el espacio entre los botones y los bordes */
+.carousel-control-prev {
+  left: 300px;
+  /* Cambia la posición izquierda */
+  background-size: 15px 15px;
+  /* Cambia el tamaño del ícono */
+  width: 30px;
+  /* Cambia el ancho del ícono */
+  height: 30px;
+  /* Cambia la altura del ícono */
+}
+
+.carousel-control-next {
+  right: 300px;
+  /* Cambia la posición derecha */
+  background-size: 15px 15px;
+  /* Cambia el tamaño del ícono */
+  width: 30px;
+  /* Cambia el ancho del ícono */
+  height: 30px;
+  /* Cambia la altura del ícono */
+}
+
+.sticky{
+  position: fixed;
+  z-index: -100;
+}
